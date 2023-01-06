@@ -4,6 +4,13 @@ def subString(s):
         for j in range(i+1, len(s)+1):
             sub_str.append(s[i:j])
     return sub_str
-    
-s = 'flower'
-print(subString(s))
+
+def Total_subString(lst):
+    subString_list = []
+    for str in lst:
+        subString_list.extend(subString(str))
+    return subString_list
+
+subString = Total_subString(['flower', 'flow', 'flight'])
+print(subString)
+
