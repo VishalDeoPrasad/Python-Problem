@@ -7,4 +7,10 @@ def solve(ar):
                 break
     return cnt
 
-print(solve([9,5,2,2,8,8,9]))
+def solve2(ar):
+    total_max = ar.count(max(ar))
+    cnt = len(ar) - total_max
+    return cnt
+
+print(solve([5,5,5,5,5,1]))
+print(solve2([5,5,5,5,5,1]))
