@@ -49,7 +49,7 @@ class FindFactors:
         
         factors.sort()
         return factors
-print(FindFactors().Factor1(23))
-print(FindFactors().Factor2(23))
-print(FindFactors().Factor3(23))
-print(FindFactors().Factor4(23))
+print(FindFactors().Factor1(28))
+print(FindFactors().Factor2(28))
+print(FindFactors().Factor3(28))
+print(FindFactors().Factor4(28))
